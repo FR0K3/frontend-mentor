@@ -58,6 +58,13 @@ header {
     display: flex;
     padding: 2rem 0;
     justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+}
+
+header img {
+    width: auto;
+    height: 4rem;
 }
 
 a {
@@ -113,9 +120,14 @@ a {
 }
 
 .menu-btn {
-    border: none;
     background-color: transparent;
+    border: none;
     cursor: pointer;
+}
+
+.menu-btn img {
+    width: 4.2rem;
+    height: 3.2rem;
 }
 
 @media (min-width: 768px) {
